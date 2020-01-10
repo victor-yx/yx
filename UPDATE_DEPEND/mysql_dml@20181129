@@ -1,0 +1,11 @@
+-- apply the filter data into the application
+ALTER TABLE darams.op_train ADD origin_accu_mileage DOUBLE NULL;
+CREATE INDEX index_origin_accu_mileage ON darams.op_train (origin_accu_mileage);
+ALTER TABLE darams.op_train MODIFY accumulated_mileage DOUBLE COMMENT '累计里程，优化后';
+ALTER TABLE darams.op_train
+  MODIFY COLUMN origin_accu_mileage DOUBLE COMMENT '故障单原始的累计里程' AFTER accumulated_mileage;
+
+-- initail
+update darams.op_train set origin_accu_mileage = accumulated_mileage
+
+

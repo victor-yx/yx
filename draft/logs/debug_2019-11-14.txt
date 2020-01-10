@@ -1,0 +1,6 @@
+2019-11-14 09:35:26	LAPTOP-HTT5C61E	loglevel:info,	2019-11-14 09:35:26 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:dataset_compensation line:1247 	starting
+2019-11-14 09:36:23	LAPTOP-HTT5C61E	loglevel:error,	SELECT carriage,mile_time,mile,source,0,keyid, (@i:=@i+1) AS seq FROM interface.if_train_mile_history_yx_old,(select @i:=-1)j WHERE carriage = "10101" AND deal_type IS NULL ORDER BY mile_time,mile;	1146 (42S02): Table 'interface.if_train_mile_history_yx_old' doesn't exist
+2019-11-14 09:37:07	LAPTOP-HTT5C61E	loglevel:info,	2019-11-14 09:37:07 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:dataset_compensation line:1247 	starting
+2019-11-14 09:54:40	LAPTOP-HTT5C61E	loglevel:warning,	2019-11-14 09:54:40 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_mile_analyze.py funcname:all_carriage_noise_deal line:429 	deal 0251 starting
+2019-11-14 09:54:41	LAPTOP-HTT5C61E	loglevel:info,	2019-11-14 09:54:41 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_mile_analyze.py funcname:dataset_compensation line:1183 	starting
+2019-11-14 09:54:42	LAPTOP-HTT5C61E	loglevel:info,	2019-11-14 09:54:42 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_mile_analyze.py funcname:all_carriage_noise_deal line:487 	carriage,total,noise,noise duplicated,deleted	('0251',)	36	9	1	10

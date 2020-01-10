@@ -1,0 +1,26 @@
+2019-10-23 18:05:52	LAPTOP-HTT5C61E	loglevel:error,	select carriage,mile_time,mile,source,0,keyid from interface.if_train_mile_history where carriage="2641" and deal_type is null	No module named 'sshtunnel'
+2019-10-23 18:10:49	LAPTOP-HTT5C61E	loglevel:error,	select carriage,mile_time,mile,source,0,keyid from interface.if_train_mile_history where carriage="2641" and deal_type is null	No module named 'sshtunnel'
+2019-10-23 18:46:41	LAPTOP-HTT5C61E	loglevel:error,	select carriage,mile_time,mile,source,0,keyid from interface.if_train_mile_history where carriage="2641" and deal_type is null	No module named 'sshtunnel'
+2019-10-23 19:17:55	LAPTOP-HTT5C61E	loglevel:warning,	2019-10-23 19:17:55 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:431 	deal 0440 starting
+[[8.600000e+01 3.111668e+06 0.000000e+00 1.000000e+00 0.000000e+00]
+ [1.320000e+02 2.418619e+06 0.000000e+00 2.000000e+00 0.000000e+00]
+ [2.920000e+02 8.016000e+03 1.000000e+00 3.000000e+00 0.000000e+00]]	 需要人工干预
+2019-10-23 19:22:44	LAPTOP-HTT5C61E	loglevel:info,	2019-10-23 19:22:44 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:489 	carriage,total,noise,noise duplicated,deleted	('0440',)	9	9	-16	-7
+2019-10-23 19:22:44	LAPTOP-HTT5C61E	loglevel:error,	2019-10-23 19:22:44 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:526 	4	list index out of range	('0440',)
+2019-10-23 19:22:57	LAPTOP-HTT5C61E	loglevel:warning,	2019-10-23 19:22:57 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:431 	deal 0440 starting
+[[8.600000e+01 3.111668e+06 0.000000e+00 1.000000e+00 0.000000e+00]
+ [1.320000e+02 2.418619e+06 0.000000e+00 2.000000e+00 0.000000e+00]
+ [2.920000e+02 8.016000e+03 1.000000e+00 3.000000e+00 0.000000e+00]]	 需要人工干预
+2019-10-23 19:53:19	LAPTOP-HTT5C61E	loglevel:info,	2019-10-23 19:53:19 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:489 	carriage,total,noise,noise duplicated,deleted	('0440',)	9	9	-16	-7
+2019-10-23 19:53:19	LAPTOP-HTT5C61E	loglevel:error,	2019-10-23 19:53:19 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:526 	4	list index out of range	('0440',)
+2019-10-23 19:55:48	LAPTOP-HTT5C61E	loglevel:warning,	2019-10-23 19:55:48 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:431 	deal 0440 starting
+[[8.600000e+01 3.111668e+06 0.000000e+00 1.000000e+00 0.000000e+00]
+ [1.320000e+02 2.418619e+06 0.000000e+00 2.000000e+00 0.000000e+00]
+ [2.920000e+02 8.016000e+03 1.000000e+00 3.000000e+00 0.000000e+00]]	 需要人工干预
+2019-10-23 20:08:52	LAPTOP-HTT5C61E	loglevel:info,	2019-10-23 20:08:52 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:489 	carriage,total,noise,noise duplicated,deleted	('0440',)	9	9	-16	-7
+2019-10-23 20:08:52	LAPTOP-HTT5C61E	loglevel:error,	2019-10-23 20:08:52 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:526 	4	list index out of range	('0440',)
+2019-10-23 20:13:51	LAPTOP-HTT5C61E	loglevel:warning,	2019-10-23 20:13:51 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:431 	deal 0440 starting
+[[8.600000e+01 3.111668e+06 0.000000e+00 1.000000e+00 0.000000e+00]
+ [1.320000e+02 2.418619e+06 0.000000e+00 2.000000e+00 0.000000e+00]
+ [2.920000e+02 8.016000e+03 1.000000e+00 3.000000e+00 0.000000e+00]]	 需要人工干预
+2019-10-23 20:14:44	LAPTOP-HTT5C61E	loglevel:info,	2019-10-23 20:14:44 file:F:/XJ_GitHub/luqian/data_manage.git/draft/d_repairData_mile_anal.py funcname:all_carriage_noise_deal line:489 	carriage,total,noise,noise duplicated,deleted	('0440',)	9	9	-16	-7
